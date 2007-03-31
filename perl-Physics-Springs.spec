@@ -16,6 +16,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Physics/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	092be260863a3d1e941ef1f29a31d0e6
 URL:		http://search.cpan.org/dist/Physics-Springs/
+BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
