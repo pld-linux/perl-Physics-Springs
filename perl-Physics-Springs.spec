@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Physics
 %define	pnam	Springs
 Summary:	Physics::Springs - Simulate Particle Dynamics with Springs
